@@ -1,0 +1,27 @@
+.head-banner{
+    padding-bottom: 12rem; 
+    background-image: url('..//Immagini/img4.jpg');
+    background-size:cover;
+    background-position: center;
+    padding-top: 5rem;
+}
+
+
+@media screen  and (min-width: 800px){
+    .head-banner{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+       }        
+}
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+}
+
+.btn{
+   text-transform: uppercase;
+    border-color: black;
+    
+}

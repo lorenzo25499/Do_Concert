@@ -1,0 +1,40 @@
+.head-banner{
+    padding-bottom: 12rem; 
+    background-image: url('..//Immagini/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+}
+
+
+@media screen  and (min-width: 800px){
+    .head-banner{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+       }        
+}
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+}
+
+.item__content{
+    background:rgb(82, 80, 255);
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 2s cubic-bezier(.215, .61, .355, 1);
+}
+.item__content--open{
+    background:white;
+    max-height: 300px;
+}
+
+
+.item p{ padding: 20px;margin: 0;}
+
+
+.sezione-icone{
+    background-color: white;
+}
